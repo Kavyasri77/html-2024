@@ -1,0 +1,37 @@
+/*my float css starts here*/
+img
+{
+    float: right;
+}
+/*my float css ends here*/
+/*flexbox*/
+#outer
+{
+    box-sizing: content-box;
+    border: 1px solid black;
+    height: 200px;
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    
+    flex-wrap: nowrap;
+   justify-content: right;
+   align-items: center;
+    
+}
+.inner
+{
+    background-color: magenta;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    width: 100px;
+    margin: 2px;
+border-radius: 100px;
+
+}
+.five
+{
+   flex-grow: 5;
+   /*focus flex-grow,flex-basis,flex-shrink*/
+}

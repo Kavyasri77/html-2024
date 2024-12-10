@@ -1,0 +1,38 @@
+*
+{
+    box-sizing: border-box;
+   
+   
+}
+.outer
+{
+    border: 2px solid black;
+    box-shadow: 10px 5px black;
+    gap: 20px;
+    
+    border: 2px red;
+}
+.inner
+{
+    height: 100px;
+    width: 100px;
+}
+.i1
+{
+    background-color: blue;
+    position: static;
+    top: 200px;
+    left: 500px;
+}
+.i2
+{
+    background-color: aqua;
+}
+.i3
+{
+    background-color: red;
+}
+.i4
+{
+    background-color: chartreuse;
+}

@@ -1,0 +1,26 @@
+*
+{
+    background-color: bisque;
+}
+
+
+#outer
+{
+    height: 300px;
+    border: 2px solid brown;
+    border-radius: 20px;
+}
+*
+{
+    box-sizing: border-box;
+}
+.inner
+{
+    height: 300px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 100px 0px;
+    
+    margin: 20px;
+}

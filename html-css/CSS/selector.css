@@ -1,0 +1,50 @@
+/*pseudo selectors */
+/*pseudo classes*/
+/* p::first-line
+{
+    font-size: 50px;
+    color: red;
+}
+#para1::before
+{
+    content: "hello";
+} */
+/*pseudo selectors */
+button
+{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+button:hover
+{
+    background-color: antiquewhite;
+    color: black;
+}
+a:active
+{
+    background-color: gray;
+}
+a:visited
+{
+    background-color: palevioletred;
+}
+.inp
+{
+    border: 1px solid bl;
+}
+/* .inner:nth-child(odd)
+{
+    background-color: rebeccapurple;
+} */
+/* a couple have 4 children x(male),y(female),x2(male),x3(male)*/
+p:nth-of-type(2)
+{
+    background-color: aqua;
+}
+input:read-write
+{
+    background-color: red
+    ;
+}
